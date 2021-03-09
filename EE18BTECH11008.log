@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2020.4.5)  6 MAR 2021 09:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2020.4.5)  9 MAR 2021 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,14 +643,17 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \mult@nat@firstbox=\box61
 \colbreak@box=\box62
 \mc@col@check@num=\count150
+) (./EE18BTECH11008.aux
+
+LaTeX Warning: Label `/_X(k)' multiply defined.
+
 )
-No file EE18BTECH11008.aux.
 \openout1 = `EE18BTECH11008.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 65.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 65.
 
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 65.
@@ -712,12 +715,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 65.
 LaTeX Info: Redefining \pageref on input line 65.
 LaTeX Info: Redefining \nameref on input line 65.
+
+(./EE18BTECH11008.out) (./EE18BTECH11008.out)
 \@outlinefile=\write3
 \openout3 = `EE18BTECH11008.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \c@lstlisting=\count152
 \c@theorem=\count153
@@ -727,6 +728,7 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 \c@example=\count157
 \c@rem=\count158
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 134.
+
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
@@ -779,12 +781,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--177
  []
 
 
+Underfull \hbox (badness 4429) in paragraph at lines 179--181
+\OT1/txr/m/n/12 the above equa-tion can be writ-ten as,where
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
 
-Overfull \hbox (13.7368pt too wide) in paragraph at lines 205--205
+Overfull \hbox (18.8968pt too wide) in paragraph at lines 205--205
 [] 
  []
 
@@ -794,7 +801,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--207
  []
 
 
-Overfull \hbox (15.11682pt too wide) in paragraph at lines 235--235
+Overfull \hbox (20.27682pt too wide) in paragraph at lines 235--235
 [] 
  []
 
@@ -817,27 +824,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (./EE18BTECH11008.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 264.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Package rerunfilecheck Info: File `EE18BTECH11008.out' has not changed.
+(rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
 
 
-Package rerunfilecheck Warning: File `EE18BTECH11008.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `EE18BTECH11008.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1210BCF5FEAE7A75A114051724EF25E7;85.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
- 10495 strings out of 494911
- 160289 string characters out of 6179863
- 269574 words of memory out of 5000000
- 13650 multiletter control sequences out of 15000+600000
+ 10504 strings out of 494911
+ 160427 string characters out of 6179863
+ 272539 words of memory out of 5000000
+ 13653 multiletter control sequences out of 15000+600000
  54754 words of font info for 123 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
  44i,17n,42p,269b,1117s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on EE18BTECH11008.dvi (2 pages, 15268 bytes).
+Output written on EE18BTECH11008.dvi (2 pages, 15484 bytes).

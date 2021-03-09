@@ -177,7 +177,7 @@ By using equation 1.0.1 \\
 \begin{align}
     X(k) = \sum_{n=0}^{N-1} x(n) e^{-j 2 \pi k n / N}, \quad k=0,1, \ldots, N-1
 \end{align}\\
-the above equation can be written as,where  $\omega = e^{\frac{-j2\pi}{N}}$ \\
+the above equation can be written as,where  $W = e^{\frac{-j2\pi}{N}}$ \\
 \begin{align}
 \begin{pmatrix}
 X(0)\\
@@ -189,10 +189,10 @@ X(N-1)
 = 
 \begin{pmatrix}
 1 & 1 & \cdots & 1 \\
-1 & \omega  &  \cdots & \omega^{N-1} \\
-1 & \omega^{2} &  \cdots & \omega^{2(N-1)} \\
+1 & W  &  \cdots & W^{N-1} \\
+1 & W^{2} &  \cdots & W^{2(N-1)} \\
 \vdots  & \vdots  & \ddots & \vdots  \\
-1 & \omega^{N-1}  &  \cdots & \omega^{(N-1)(N-1)} \\ 
+1 & W^{N-1}  &  \cdots & W^{(N-1)(N-1)} \\ 
 \end{pmatrix}
 \quad
 \begin{pmatrix}
@@ -219,10 +219,10 @@ H(N-1)
 = 
 \begin{pmatrix}
 1 & 1 & \cdots & 1 \\
-1 & \omega  &  \cdots & \omega^{N-1} \\
-1 & \omega^{2}  &  \cdots & \omega^{2(N-1)} \\
+1 & W  &  \cdots & W^{N-1} \\
+1 & W^{2}  &  \cdots & W^{2(N-1)} \\
 \vdots  & \vdots   & \ddots & \vdots  \\
-1 & \omega^{N-1} &  \cdots & \omega^{(N-1)(N-1)} \\ 
+1 & W^{N-1} &  \cdots & W^{(N-1)(N-1)} \\ 
 \end{pmatrix}
 \quad
 \begin{pmatrix}
