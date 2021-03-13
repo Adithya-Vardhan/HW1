@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2020.4.5)  9 MAR 2021 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2020.4.5)  13 MAR 2021 22:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,6 +647,12 @@ Package multicol Warning: May not work with the twocolumn option on input line
 
 LaTeX Warning: Label `/_X(k)' multiply defined.
 
+
+LaTeX Warning: Label `|h(k)|' multiply defined.
+
+
+LaTeX Warning: Label `/_X(k)' multiply defined.
+
 )
 \openout1 = `EE18BTECH11008.aux'.
 
@@ -818,27 +824,47 @@ File: ./figures/abs_h(k).eps Graphic file (type eps)
 <./figures/abs_h(k).eps>
 File: ./figures/angle_h(k).eps Graphic file (type eps)
  <./figures/angle_h(k).eps>
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
- (./EE18BTECH11008.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Underfull \hbox (badness 10000) in paragraph at lines 268--271
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 579--581
+\OT1/txr/m/n/12 would com-bine to give $\OML/txmi/m/it/12 X[]$ \OT1/txr/m/n/12 
+.And $\OML/txmi/m/it/12 X[] \OMS/txsy/m/n/12 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
+
+ []
+
+File: ./figures/abs_x(k)_2.eps Graphic file (type eps)
+<./figures/abs_x(k)_2.eps>
+File: ./figures/phase_x(k)_2.eps Graphic file (type eps)
+ <./figures/phase_x(k)_2.eps>
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
+
+(./EE18BTECH11008.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 599.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 599.
 Package rerunfilecheck Info: File `EE18BTECH11008.out' has not changed.
 (rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 599.
  ) 
 Here is how much of TeX's memory you used:
- 10504 strings out of 494911
- 160427 string characters out of 6179863
- 272539 words of memory out of 5000000
- 13653 multiletter control sequences out of 15000+600000
+ 10508 strings out of 494911
+ 160507 string characters out of 6179863
+ 280539 words of memory out of 5000000
+ 13655 multiletter control sequences out of 15000+600000
  54754 words of font info for 123 fonts, out of 8000000 for 9000
  39 hyphenation exceptions out of 8191
- 44i,17n,42p,269b,1117s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,17n,42p,277b,1117s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on EE18BTECH11008.dvi (2 pages, 15484 bytes).
+Output written on EE18BTECH11008.dvi (3 pages, 32952 bytes).
